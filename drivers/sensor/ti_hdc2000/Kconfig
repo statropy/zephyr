@@ -1,0 +1,10 @@
+# TI_HDC2000 temperature and humidity sensor configuration options
+
+# Copyright (c) 2020 Statropy Software LLC
+# SPDX-License-Identifier: Apache-2.0
+
+config TI_HDC2000
+	bool "Texas Instruments Temperature and Humidity Sensor 2000 series (e.g. HDC2010)"
+	depends on I2C
+	help
+	  Enable driver for TI temperature and humidity sensors.
